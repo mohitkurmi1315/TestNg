@@ -18,7 +18,7 @@ public class CheckBoxTest {
         
         driver.findElement(By.xpath("(//input[@class='cb1-element'])[2]")).click();
         
-//        RadioButton
+//        RadioButton, 
         driver.get("https://demo.seleniumeasy.com/basic-radiobutton-demo.html");
         driver.findElement(By.xpath("//input[@value='5 - 15']")).click();
         
